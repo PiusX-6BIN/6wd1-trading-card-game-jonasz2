@@ -139,9 +139,9 @@ Het project bestaat uit verschillende opdrachten. Je begint met de herhalingsopd
 
 ### Deadlines
  - Week 1: opdracht 1
- - Week 3: opdracht 2&3
- - Week 5: opdracht 4&5
- - Week 6: project evaluatie
+ - Week 2: opdracht 2&3
+ - Week 4: opdracht 4&5
+ - Week 5: project evaluatie
 
 ### Leerdoelen
 

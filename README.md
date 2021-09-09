@@ -52,7 +52,11 @@ Het project bestaat uit verschillende opdrachten. Je begint met de herhalingsopd
 >   - Duidt aan welke eigenschappen verplicht zijn, en welke optioneel.
 >   - Duidt aan welk datatype geschikt is voor elke eigenschap.
 >   - Duidt aan welke eigenschappen gebruikt kunnen worden als unieke ID voor een kaart.
-
+> 
+> Denk goed na over de volgende zaken:
+> - Wat zijn je hoofdobjecten, en wat zijn je sub-objecten?
+> - Welke eigenschap is specifiek voor één kaart, en welke is gelijk voor elke kaart?
+ 
 </details>
 
 ---
@@ -133,23 +137,31 @@ Het project bestaat uit verschillende opdrachten. Je begint met de herhalingsopd
 
 ## 🏆 Evaluatie
 
+### Deadlines
+ - Week 1: opdracht 1
+ - Week 3: opdracht 2&3
+ - Week 5: opdracht 4&5
+ - Week 6: project evaluatie
+
+### Leerdoelen
+
 Dit project wordt geevalueerd op basis van de leerdoelen hieronder.
 
-### Codeblokken
+#### Codeblokken
 
 | A   | B   | C   | D   | E   |
 | --- | --- | --- | --- | --- |
 Iteraties, selecties en functies maken gebruik van de correcte voorwaarden en parameters. Iterator-variabelen worden gebruikt. Het DRY principe wordt zo goed mogelijk toegepast door te kiezen voor de juiste codeblokken. | Iteraties, selecties en functies maken gebruik van de correcte voorwaarden en parameters. Iterator-variabelen worden gebruikt. Het DRY principe wordt niet altijd toegepast door de codeblokken die je kiest. | Iteraties, selecties en functies maken gebruik van de correcte voorwaarden en parameters. Iterator-variabelen worden niet gebruikt. Het DRY principe wordt niet altijd toegepast door de codeblokken die je kiest. | Iteraties en selecties maken gebruik van de correcte voorwaarden. Iterator-variabelen worden niet gebruikt. Functies en parameters worden niet altijd correct toegepast. Het DRY principe wordt niet altijd toegepast door de codeblokken die je kiest. | Iteraties en selecties maken geen gebruik van de correcte voorwaarden. Iterator-variabelen worden niet gebruikt. Functies en parameters worden niet altijd correct toegepast. Het DRY principe wordt niet altijd toegepast door de codeblokken die je kiest.
 
 
-### Instructies
+#### Instructies
 
 | A   | B   | C   | D   | E   |
 | --- | --- | --- | --- | --- |
 Variabelen worden correct geinitialiseerd en je maakt correct gebruik van de verschillende datatypes en operators. | Enkele variabelen worden nog niet juist geinitialiseerd. Je maakt wel correct gebruik van de verschillende datatypes en operators. | Je gebruik van de verschillende operators is correct. Je gebruikt de verschillende datatypes nog niet correct. Variabelen worden nog niet juist geinitialiseerd. | Je gebruik van de verschillende datatypes is correct. Je gebruikt de verschillende operators nog niet correct. Variabelen worden nog niet juist geinitialiseerd. | Variabelen worden niet goed geinitialiseerd, je maakt verkeerd gebruik van de verschillende datatypes en operators.
 
 
-### Markup
+#### Markup
 
 | A   | B   | C   | D   | E   |
 | --- | --- | --- | --- | --- |
@@ -157,14 +169,14 @@ Elementen worden correct genest. De semantisch juiste elementen werden gebruikt.
 
 
 
-### Opmaak
+#### Opmaak
 | A   | B   | C   | D   | E   |
 | --- | --- | --- | --- | --- |
 Selectors zijn correct en voldoende specifiek gedefinieerd. Er werd gekozen voor de correcte stijlregels met de juiste waardes en eenheden. Selectors werden samengevoegd waar nodig. | Selectors zijn correct en voldoende specifiek gedefinieerd. Er werd gekozen voor de correcte stijlregels met de juiste waardes en eenheden. Selectors worden te weinig samengevoegd. | Selectors zijn correct en voldoende specifiek gedefinieerd. Selectors worden te weinig samengevoegd. Er werd gekozen voor de correcte stijlregels, maar de waardes en eenheden werden niet correct gebruikt. | Selectors zijn correct gedefinieerd, maar zijn vaak niet specifiek genoeg. Selectors worden te weinig samengevoegd. Er werd gekozen voor de correcte stijlregels, maar de waardes en eenheden werden niet correct gebruikt. | Selectors zijn verkeerd of niet specifiek genoeg gedefinieerd. Selectors worden te weinig samengevoegd. Stijlregels, waardes en eenheden werden niet correct gebruikt.
 
 
 
-### Statische Websites
+#### Statische Websites
 | A   | B   | C   | D   | E   |
 | --- | --- | --- | --- | --- |
 Layout, ruimte en interactie zijn correct geïmplementeerd. De website is responsive en Mobile First ontwikkeld. Stijlregels zijn duidelijk en overzichtelijk verzameld in externe stylesheets. Je gebruikt relatieve eenheden (em, rem) en custom properties (variabelen) waar nodig. | Layout, ruimte en interactie zijn correct geïmplementeerd. De website is responsive en Mobile First ontwikkeld. Stijlregels zijn duidelijk en overzichtelijk verzameld in externe stylesheets. Je gebruikt custom properties (variabelen) waar nodig. | De interactie op jouw website is onvoldoende geïmplementeerd. Layout en ruimte zijn correct. De website is responsive en Mobile First ontwikkeld. Stijlregels zijn duidelijk en overzichtelijk verzameld in externe stylesheets. | Ruimte en interactie zijn onvoldoende geïmplementeerd. De website is onvoldoende responsive. Je layout werkt en je hebt de website ontwikkeld volgens het Mobile First principe. | Layout, ruimte en interactie zijn onvoldoende geïmplementeerd. De website is niet responsive. Er werd niet gewerkt volgens het Mobile First principe.

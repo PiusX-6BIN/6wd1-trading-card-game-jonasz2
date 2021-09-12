@@ -13,52 +13,85 @@ h1, h3, p{
     padding: 0;
 }
 
+img.cardPhoto{
+    border: 8px solid rgb(65, 64, 104);
+}
+
 .cardPhoto{
     display: flex;
     justify-content: center;
 }
 
 img{
-    width: 90%;
-    padding: 5px;
+    width: 80%;
 }
 
 #title{
     display: flex;
     justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#titlebox{
+    box-shadow: 3px 3px 5px rgb(34, 34, 34);
+    display: flex;
+    border-top: solid 3px rgba(255, 255, 255, 0.384);
+    border-left: solid 3px rgba(255, 255, 255, 0.384);
 }
 
 #packInfo{
     display: flex;
     justify-content: space-between;
+    margin-right: 48px;
+    margin-left: 48px;
 }
 
 #description {
-   border: 0; 
+    border: 5px solid rgb(151, 26, 26); 
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #effect {
     font-style: italic;
+    padding-bottom: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 #stats{
     display: flex;
     justify-content: right;
     font-weight: bold;
+    border-top: 2px solid black;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(221, 171, 44);
+    background-color: rgb(218, 143, 32);
     border: solid 10px;
-    border-color: rgb(0, 0, 56);
+    border-color: rgb(4, 4, 27);
     border-top: 0px;
 }
 
 main{
-    background-color: rgb(221, 171, 44);
+    background-color: rgb(218, 143, 32);
     border: solid 10px;
-    border-color: rgb(0, 0, 56);
+    border-color: rgb(4, 4, 27);
     border-bottom: 0px;
+}
+
+#level{
+    display: flex;
+    justify-content: right;
+    margin-right: 45px;
+}
+
+.levelstar{
+    width: 8%;
+    padding: 1px;
 }

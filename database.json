@@ -4,12 +4,13 @@
     "cards": [
         {
             "card name": "Blue-Eyes White Dragon",
+            "card type": "normal",
             "level": 8,
             "attribute": "light",
             "image": "BlueEyes.jpg",
             "edition": "LIMITED EDITION",
             "publishing number": "LC01-EN004",
-            "card type": "DRAGON",
+            "monster type": "DRAGON",
             "description/effect": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the fate.",
             "stats": [
                 {
@@ -18,6 +19,114 @@
                 }
             ],
             "card number": "89631139"
+        },
+        {
+            "card name": "Dark Magician",
+            "card type": "normal",
+            "level": 7,
+            "attribute": "dark",
+            "image": "Darkmagician.png",
+            "edition": "",
+            "publishing number": "LDK2-ENY10",
+            "monster type": "SPELLCASTER",
+            "description/effect": "The ultimate wizard in terms of attack and defense.",
+            "stats": [
+                {
+                    "attack": 2500,
+                    "defense": 2100
+                }
+            ],
+            "card number": "46986414"
+        },
+        {
+            "card name": "Red-Eyes B. Dragon",
+            "card type": "normal",
+            "level": 7,
+            "attribute": "dark",
+            "image": "RedEyes.jpg",
+            "edition": "LIMITED EDITION",
+            "publishing number": "LC01-EN006",
+            "monster type": "DRAGON",
+            "description/effect": "A ferocious dragon with a deadly attack.",
+            "stats": [
+                {
+                    "attack": 2400,
+                    "defense": 2000
+                }
+            ],
+            "card number": "74677422"
+        },
+        {
+            "card name": "Stardust Dragon",
+            "card type": "synchro",
+            "level": 8,
+            "attribute": "wind",
+            "image": "Stardust.jpg",
+            "edition": "1st Edition",
+            "publishing number": "LC5D-EN031",
+            "monster type": "DRAGON/SYNCHRO/EFFECT",
+            "description/effect": "1 Tuner + 1 or more non-Tuner monsters   During either player's turn, when a card or effect is activated that would destroy a card(s) on the field: You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your Graveyard.",
+            "stats": [
+                {
+                    "attack": 2500,
+                    "defense": 2000
+                }
+            ],
+            "card number": "44508094"
+        },
+        {
+            "card name": "Elemental Hero Neos",
+            "card type": "normal",
+            "level": 7,
+            "attribute": "light",
+            "image": "neos.jpg",
+            "edition": "1st Edition",
+            "publishing number": "DP03-EN001",
+            "monster type": "WARRIOR",
+            "description/effect": "A new Elemental Hero has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are released.",
+            "stats": [
+                {
+                    "attack": 2500,
+                    "defense": 2000
+                }
+            ],
+            "card number": "89943723"
+        },
+        {
+            "card name": "Blue-Eyes Ultimate Dragon",
+            "card type": "fusion",
+            "level": 12,
+            "attribute": "light",
+            "image": "ultimate.png",
+            "edition": "",
+            "publishing number": "LDK2-ENK40",
+            "monster type": "DRAGON/FUSION",
+            "description/effect": "'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon'",
+            "stats": [
+                {
+                    "attack": 4500,
+                    "defense": 3800
+                }
+            ],
+            "card number": "23995346"
+        },
+        {
+            "card name": "Slifer the Sky Dragon",
+            "card type": "effect",
+            "level": 10,
+            "attribute": "light",
+            "image": "Slifer.jpg",
+            "edition": "LIMITED EDITION",
+            "publishing number": "LDK2-ENK40",
+            "monster type": "DIVINE-BEAST/EFFECT",
+            "description/effect": "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Normal or Special Summoned to your opponent's field in Attack Position: That monster(s) loses 2000 ATK, then if its ATK has been reduced to 0 as a result, destroy it.",
+            "stats": [
+                {
+                    "attack": "?",
+                    "defense": "?"
+                }
+            ],
+            "card number": ""
         }
     ]
 }

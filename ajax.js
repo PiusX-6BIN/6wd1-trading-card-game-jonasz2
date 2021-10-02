@@ -25,7 +25,7 @@ function FindCard(event){
         if (card.cardname.toLowerCase().includes(inputText.toLowerCase()) == true) {
             list.innerHTML += `
                 <li>
-                    <a href="card.html?cardId=${i}">${card.cardname}</a>
+                    <a href="index.html?cardId=${i}">${card.cardname}</a>
                 </li>
             `;
         }
@@ -48,13 +48,16 @@ function DatabaseLoaded(event) {
 
     let cardName = database.cards[cardId].cardname;
     let atk = database.cards[cardId].stats.attack;
+    let image = database.cards[cardId].image;
 
-    ReplaceCard(cardName, atk);
+    ReplaceCard(cardName, atk, image);
 }
 
-function ReplaceCard(cardName, attack) {
+function ReplaceCard(cardName, stats, image) {
 
     document.querySelector("#cardname").innerHTML = cardName;
 
-    document.querySelector("#attack>").innerHTML = attack;
+    document.querySelector("#attack").innerHTML = stats.attack;
+
+    document.querySelector(".cardPhoto").innerHTML = image;
 }

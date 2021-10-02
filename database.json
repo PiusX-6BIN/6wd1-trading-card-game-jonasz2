@@ -3,8 +3,8 @@
     "copyrights-info": "©1996 KAZUKI TAKAHASHI",
     "cards": [
         {
-            "card name": "Blue-Eyes White Dragon",
-            "card type": "normal",
+            "cardname": "Blue-Eyes White Dragon",
+            "cardtype": "normal",
             "level": 8,
             "attribute": "light",
             "image": "BlueEyes.jpg",
@@ -21,8 +21,8 @@
             "card number": "89631139"
         },
         {
-            "card name": "Dark Magician",
-            "card type": "normal",
+            "cardname": "Dark Magician",
+            "cardtype": "normal",
             "level": 7,
             "attribute": "dark",
             "image": "Darkmagician.png",
@@ -39,8 +39,8 @@
             "card number": "46986414"
         },
         {
-            "card name": "Red-Eyes B. Dragon",
-            "card type": "normal",
+            "cardname": "Red-Eyes B. Dragon",
+            "cardtype": "normal",
             "level": 7,
             "attribute": "dark",
             "image": "RedEyes.jpg",
@@ -57,8 +57,8 @@
             "card number": "74677422"
         },
         {
-            "card name": "Stardust Dragon",
-            "card type": "synchro",
+            "cardname": "Stardust Dragon",
+            "cardtype": "synchro",
             "level": 8,
             "attribute": "wind",
             "image": "Stardust.jpg",
@@ -75,8 +75,8 @@
             "card number": "44508094"
         },
         {
-            "card name": "Elemental Hero Neos",
-            "card type": "normal",
+            "cardname": "Elemental Hero Neos",
+            "cardtype": "normal",
             "level": 7,
             "attribute": "light",
             "image": "neos.jpg",
@@ -93,8 +93,8 @@
             "card number": "89943723"
         },
         {
-            "card name": "Blue-Eyes Ultimate Dragon",
-            "card type": "fusion",
+            "cardname": "Blue-Eyes Ultimate Dragon",
+            "cardtype": "fusion",
             "level": 12,
             "attribute": "light",
             "image": "ultimate.png",
@@ -111,8 +111,8 @@
             "card number": "23995346"
         },
         {
-            "card name": "Slifer the Sky Dragon",
-            "card type": "effect",
+            "cardname": "Slifer the Sky Dragon",
+            "cardtype": "effect",
             "level": 10,
             "attribute": "light",
             "image": "Slifer.jpg",

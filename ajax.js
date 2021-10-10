@@ -47,17 +47,27 @@ function DatabaseLoaded(event) {
     let cardId = urlParams.get("cardId");
 
     let cardName = database.cards[cardId].cardname;
-    let atk = database.cards[cardId].stats.attack;
-    let image = database.cards[cardId].image;
+    let atk = database.cards[cardId].attack;
+    let def = database.cards[cardId].defense;
+    let edit = database.cards[cardId].edition;
+    let publishNumber = database.cards[cardId].publishingnumber;
+    let monsterType = database.cards[cardId].monstertype;
+    let description = database.cards[cardId].descriptioneffect;
+    let number = database.cards[cardId].cardnumber;
 
-    ReplaceCard(cardName, atk, image);
+    ReplaceCard(cardName, atk, def, edit, publishNumber, monsterType, description, number);
 }
 
-function ReplaceCard(cardName, stats, image) {
+function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monstertype, descriptioneffect, cardnumber) {
 
     document.querySelector("#cardname").innerHTML = cardName;
+    document.querySelector("#attack").innerHTML = attack;
+    document.querySelector("#defense").innerHTML = defense;
+    document.querySelector("#edition").innerHTML = edition;
+    document.querySelector("#packNumber").innerHTML = publishingnumber;
+    document.querySelector("#monsterType").innerHTML = monstertype;
+    document.querySelector("#effect").innerHTML = descriptioneffect;
+    document.querySelector("#cardNumber").innerHTML = cardnumber;
 
-    document.querySelector("#attack").innerHTML = stats.attack;
 
-    document.querySelector(".cardPhoto").innerHTML = image;
 }

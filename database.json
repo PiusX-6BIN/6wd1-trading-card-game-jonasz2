@@ -9,16 +9,12 @@
             "attribute": "light",
             "image": "BlueEyes.jpg",
             "edition": "LIMITED EDITION",
-            "publishing number": "LC01-EN004",
-            "monster type": "DRAGON",
-            "description/effect": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the fate.",
-            "stats": [
-                {
-                    "attack": 3000,
-                    "defense": 2500
-                }
-            ],
-            "card number": "89631139"
+            "publishingnumber": "LC01-EN004",
+            "monstertype": "DRAGON",
+            "descriptioneffect": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the fate.",
+            "attack": 3000,
+            "defense": 2500,
+            "cardnumber": "89631139"
         },
         {
             "cardname": "Dark Magician",
@@ -27,16 +23,12 @@
             "attribute": "dark",
             "image": "Darkmagician.png",
             "edition": "",
-            "publishing number": "LDK2-ENY10",
-            "monster type": "SPELLCASTER",
-            "description/effect": "The ultimate wizard in terms of attack and defense.",
-            "stats": [
-                {
-                    "attack": 2500,
-                    "defense": 2100
-                }
-            ],
-            "card number": "46986414"
+            "publishingnumber": "LDK2-ENY10",
+            "monstertype": "SPELLCASTER",
+            "descriptioneffect": "The ultimate wizard in terms of attack and defense.",
+            "attack": 2500,
+            "defense": 2100,
+            "cardnumber": "46986414"
         },
         {
             "cardname": "Red-Eyes B. Dragon",
@@ -45,16 +37,12 @@
             "attribute": "dark",
             "image": "RedEyes.jpg",
             "edition": "LIMITED EDITION",
-            "publishing number": "LC01-EN006",
-            "monster type": "DRAGON",
-            "description/effect": "A ferocious dragon with a deadly attack.",
-            "stats": [
-                {
-                    "attack": 2400,
-                    "defense": 2000
-                }
-            ],
-            "card number": "74677422"
+            "publishingnumber": "LC01-EN006",
+            "monstertype": "DRAGON",
+            "descriptioneffect": "A ferocious dragon with a deadly attack.",
+            "attack": 2400,
+            "defense": 2000,
+            "cardnumber": "74677422"
         },
         {
             "cardname": "Stardust Dragon",
@@ -63,16 +51,12 @@
             "attribute": "wind",
             "image": "Stardust.jpg",
             "edition": "1st Edition",
-            "publishing number": "LC5D-EN031",
-            "monster type": "DRAGON/SYNCHRO/EFFECT",
-            "description/effect": "1 Tuner + 1 or more non-Tuner monsters   During either player's turn, when a card or effect is activated that would destroy a card(s) on the field: You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your Graveyard.",
-            "stats": [
-                {
-                    "attack": 2500,
-                    "defense": 2000
-                }
-            ],
-            "card number": "44508094"
+            "publishingnumber": "LC5D-EN031",
+            "monstertype": "DRAGON/SYNCHRO/EFFECT",
+            "descriptioneffect": "1 Tuner + 1 or more non-Tuner monsters   During either player's turn, when a card or effect is activated that would destroy a card(s) on the field: You can Tribute this card; negate the activation, and if you do, destroy it. During the End Phase, if this effect was activated this turn (and was not negated): You can Special Summon this card from your Graveyard.",
+            "attack": 2500,
+            "defense": 2000,
+            "cardnumber": "44508094"
         },
         {
             "cardname": "Elemental Hero Neos",
@@ -81,16 +65,12 @@
             "attribute": "light",
             "image": "neos.jpg",
             "edition": "1st Edition",
-            "publishing number": "DP03-EN001",
-            "monster type": "WARRIOR",
-            "description/effect": "A new Elemental Hero has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are released.",
-            "stats": [
-                {
-                    "attack": 2500,
-                    "defense": 2000
-                }
-            ],
-            "card number": "89943723"
+            "publishingnumber": "DP03-EN001",
+            "monstertype": "WARRIOR",
+            "descriptioneffect": "A new Elemental Hero has arrived from Neo-Space! When he initiates a Contact Fusion with a Neo-Spacian his unknown powers are released.",
+            "attack": 2500,
+            "defense": 2000,
+            "cardnumber": "89943723"
         },
         {
             "cardname": "Blue-Eyes Ultimate Dragon",
@@ -99,16 +79,12 @@
             "attribute": "light",
             "image": "ultimate.png",
             "edition": "",
-            "publishing number": "LDK2-ENK40",
-            "monster type": "DRAGON/FUSION",
-            "description/effect": "'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon'",
-            "stats": [
-                {
-                    "attack": 4500,
-                    "defense": 3800
-                }
-            ],
-            "card number": "23995346"
+            "publishingnumber": "LDK2-ENK40",
+            "monstertype": "DRAGON/FUSION",
+            "descriptioneffect": "'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon' + 'Blue-Eyes White Dragon'",
+            "attack": 4500,
+            "defense": 3800,
+            "cardnumber": "23995346"
         },
         {
             "cardname": "Slifer the Sky Dragon",
@@ -117,16 +93,12 @@
             "attribute": "light",
             "image": "Slifer.jpg",
             "edition": "LIMITED EDITION",
-            "publishing number": "LDK2-ENK40",
-            "monster type": "DIVINE-BEAST/EFFECT",
-            "description/effect": "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Normal or Special Summoned to your opponent's field in Attack Position: That monster(s) loses 2000 ATK, then if its ATK has been reduced to 0 as a result, destroy it.",
-            "stats": [
-                {
-                    "attack": "?",
-                    "defense": "?"
-                }
-            ],
-            "card number": ""
+            "publishingnumber": "LDK2-ENK40",
+            "monstertype": "DIVINE-BEAST/EFFECT",
+            "descriptioneffect": "Requires 3 Tributes to Normal Summon (cannot be Normal Set). This card's Normal Summon cannot be negated. When Normal Summoned, cards and effects cannot be activated. Once per turn, during the End Phase, if this card was Special Summoned: Send it to the GY. Gains 1000 ATK/DEF for each card in your hand. If a monster(s) is Normal or Special Summoned to your opponent's field in Attack Position: That monster(s) loses 2000 ATK, then if its ATK has been reduced to 0 as a result, destroy it.",
+            "attack": "?",
+            "defense": "?",
+            "cardnumber": ""
         }
     ]
 }

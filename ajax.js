@@ -54,11 +54,12 @@ function DatabaseLoaded(event) {
     let monsterType = database.cards[cardId].monstertype;
     let description = database.cards[cardId].descriptioneffect;
     let number = database.cards[cardId].cardnumber;
+    let attri = database.cards[cardId].cardnumber;
 
-    ReplaceCard(cardName, atk, def, edit, publishNumber, monsterType, description, number);
+    ReplaceCard(cardName, atk, def, edit, publishNumber, monsterType, description, number, attri);
 }
 
-function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monstertype, descriptioneffect, cardnumber) {
+function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monstertype, descriptioneffect, cardnumber, attribute) {
 
     document.querySelector("#cardname").innerHTML = cardName;
     document.querySelector("#attack").innerHTML = attack;
@@ -68,4 +69,21 @@ function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monst
     document.querySelector("#monsterType").innerHTML = monstertype;
     document.querySelector("#effect").innerHTML = descriptioneffect;
     document.querySelector("#cardNumber").innerHTML = cardnumber;
+
+  /*  let image = "images/";
+      switch(attribute) {
+        case "light": 
+            image += "LightAttribute.png"; 
+            document.querySelector("main").classList.remove();
+            document.querySelector("main").classList.add("light");
+            break;
+        case "dark": 
+            image += "DARK.png"; 
+            document.querySelector("main").classList.remove();
+            document.querySelector("main").classList.add("dark");
+            break;
+    } 
+    document.querySelector("#Attribute").src = image;
+    console.log(image); */
+
 }

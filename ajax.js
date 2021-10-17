@@ -128,4 +128,31 @@ function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monst
             document.querySelector("h1").classList.add("nameNormal");
             break;
     }
+    switch(cardName){
+        case "Blue-Eyes Ultimate Dragon":
+            document.querySelector("div.cardPhoto>img").src = "images/ultimate.png";
+            break;
+        case "Dark Magician":
+            document.querySelector("div.cardPhoto>img").src = "images/Darkmagician.png";
+            document.querySelector("img").src = "images/DARK.png"
+            break;
+        case "Slifer the Sky Dragon":
+            document.querySelector("div.cardPhoto>img").src = "images/Slifer.jpg";
+            document.querySelector("img").src = "images/DIVINE.png"
+
+            break;
+        case "Elemental Hero Neos":
+            document.querySelector("div.cardPhoto>img").src = "images/neos.jpg";
+            break;
+        case "Red-Eyes B. Dragon":
+            document.querySelector("div.cardPhoto>img").src = "images/RedEyes.jpg";
+            document.querySelector("img").src = "images/DARK.png"
+            document.querySelector("#effect").classList.remove();
+            document.querySelector("#effect").classList.add("DarkMagicianText");
+            break;
+        case "Stardust Dragon":
+            document.querySelector("div.cardPhoto>img").src = "images/Stardust.jpg";
+            document.querySelector("img").src = "images/WIND.png"
+
+    }
 }

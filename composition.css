@@ -56,7 +56,19 @@ img{
     border: 5px solid rgb(151, 26, 26); 
     margin-right: 20px;
     margin-left: 20px;
-    background-color: rgb(218, 178, 120);
+}
+
+.smallerText{
+    font-size: 10.9px;
+}
+
+.smallestText{
+    font-size: 9.5px;
+}
+
+.DarkMagicianText{
+    font-size: inherit;
+    margin-bottom: 35px;
 }
 
 #type {
@@ -88,8 +100,32 @@ footer{
     border-top: 0px;
 }
 
-main{
+.normal{
     background-color: rgb(218, 143, 32);
+}
+
+.fusion{
+    background-color: #8b52bd;
+}
+
+.effect{
+    background-color: rgb(175, 73, 5);
+}
+
+
+.normalDesc{
+    background-color: rgb(218, 178, 120);
+}
+
+.fusionDesc{
+    background-color: #9485a1;
+}
+
+.synchro{
+    background-color: rgb(228, 228, 228);
+}
+
+main{
     border: solid 10px;
     border-color: rgb(4, 4, 27);
     border-bottom: 0px;

@@ -54,12 +54,12 @@ function DatabaseLoaded(event) {
     let monsterType = database.cards[cardId].monstertype;
     let description = database.cards[cardId].descriptioneffect;
     let number = database.cards[cardId].cardnumber;
-    let attri = database.cards[cardId].cardnumber;
+    let cardtype = database.cards[cardId].cardtype;
 
-    ReplaceCard(cardName, atk, def, edit, publishNumber, monsterType, description, number, attri);
+    ReplaceCard(cardName, atk, def, edit, publishNumber, monsterType, description, number, cardtype);
 }
 
-function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monstertype, descriptioneffect, cardnumber, attribute) {
+function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monstertype, descriptioneffect, cardnumber, cardtype) {
 
     document.querySelector("#cardname").innerHTML = cardName;
     document.querySelector("#attack").innerHTML = attack;
@@ -70,20 +70,62 @@ function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monst
     document.querySelector("#effect").innerHTML = descriptioneffect;
     document.querySelector("#cardNumber").innerHTML = cardnumber;
 
-  /*  let image = "images/";
-      switch(attribute) {
-        case "light": 
-            image += "LightAttribute.png"; 
+      switch(cardtype) {
+        case "normal":  
             document.querySelector("main").classList.remove();
-            document.querySelector("main").classList.add("light");
+            document.querySelector("main").classList.add("normal");
+            document.querySelector("footer").classList.remove();
+            document.querySelector("footer").classList.add("normal");
+            document.querySelector("section:last-child").classList.remove();
+            document.querySelector("section:last-child").classList.add("normalDesc");
             break;
-        case "dark": 
-            image += "DARK.png"; 
+        case "synchro":  
             document.querySelector("main").classList.remove();
-            document.querySelector("main").classList.add("dark");
+            document.querySelector("main").classList.add("synchro");
+            document.querySelector("footer").classList.remove();
+            document.querySelector("footer").classList.add("synchro");
+            document.querySelector("section:last-child").classList.remove();
+            document.querySelector("section:last-child").classList.add("synchro");
+            document.querySelector("#effect").classList.remove();
+            document.querySelector("#effect").classList.add("smallerText");
+            break;
+        case "fusion": 
+            document.querySelector("main").classList.remove();
+            document.querySelector("main").classList.add("fusion");
+            document.querySelector("footer").classList.remove();
+            document.querySelector("footer").classList.add("fusion");
+            document.querySelector("section:last-child").classList.remove();
+            document.querySelector("section:last-child").classList.add("fusionDesc");
+            break;
+        case "effect": 
+            document.querySelector("main").classList.remove();
+            document.querySelector("main").classList.add("effect");
+            document.querySelector("footer").classList.remove();
+            document.querySelector("footer").classList.add("effect");
+            document.querySelector("section:last-child").classList.remove();
+            document.querySelector("section:last-child").classList.add("normalDesc");
             break;
     } 
-    document.querySelector("#Attribute").src = image;
-    console.log(image); */
-
+    switch(cardName){
+        case "Blue-Eyes Ultimate Dragon":
+            document.querySelector("h1").classList.remove();
+            document.querySelector("h1").classList.add("nameSmall");
+            break;
+        case "Slifer the Sky Dragon":
+            document.querySelector("h1").classList.remove();
+            document.querySelector("h1").classList.add("nameNormal");
+            document.querySelector("#effect").classList.remove();
+            document.querySelector("#effect").classList.add("smallestText");
+            break;
+        case "Dark Magician":
+            document.querySelector("h1").classList.remove();
+            document.querySelector("h1").classList.add("nameNormal");
+            document.querySelector("#effect").classList.remove();
+            document.querySelector("#effect").classList.add("DarkMagicianText");
+            break;
+        default:
+            document.querySelector("h1").classList.remove();
+            document.querySelector("h1").classList.add("nameNormal");
+            break;
+    }
 }

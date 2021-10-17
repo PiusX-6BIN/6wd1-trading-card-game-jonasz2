@@ -68,6 +68,4 @@ function ReplaceCard(cardName, attack, defense, edition, publishingnumber, monst
     document.querySelector("#monsterType").innerHTML = monstertype;
     document.querySelector("#effect").innerHTML = descriptioneffect;
     document.querySelector("#cardNumber").innerHTML = cardnumber;
-
-
 }
